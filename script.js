@@ -247,7 +247,7 @@ function openPage (type) {
 
     title="ENTERPRISE MANAGEMENT";
 
-    question="Think Smarter, \n\noperate Smarter \n\nGrow Stronger...";
+    question="Think Smarter, \n\nOperate Smarter, \n\nGrow Stronger...";
 
     text="In today’s fast-paced business environment, organizations face increasing competition, rapid technological advancements, and growing demands for efficiency, agility, and sustainability. To stay ahead, businesses need intelligent solutions that streamline operations, optimize resources, and support long-term growth. \n\nAt Almighty Genesis, we help organizations transform and modernize their core business functions by creating efficient, connected, and customer-focused operations. Through a combination of business process expertise, digital technologies, and strategic support, we enable businesses to improve performance while adapting to changing market demands. \n\nOur solutions help organizations enhance critical functions such as finance, human resources, customer service, back-office operations, and business support services. By simplifying processes, improving workflows, and leveraging technology, we create seamless environments where people, processes, and systems work together more effectively.";
 
@@ -400,7 +400,7 @@ function openPage (type) {
 
     detailHeading="Freedom To Work. Power To Grow.";
 
-    intro = "★ FLEXIBILITY CREATES OPPORTUNITY. OPPORTUNITY CREATES SUCCESS. ★";
+    intro = "★ FLEXIBILITY CREATES OPPORTUNITY. OPPORTUNITY CREATES SUCCESS ★";
 
     text="At Almighty Genesis, flexibility is an integral part of how we work. Built on a foundation of trust, accountability, and mutual respect, our work culture empowers employees to perform at their best while maintaining a healthy work-life balance. \n\nWe believe that great results come from giving our people the freedom and support they need to thrive. By embracing flexible work practices, we create an environment where innovation, collaboration, and productivity can flourish regardless of location or working style. \n\nOur commitment extends beyond business success. We strive to build an inclusive workplace that values diverse perspectives, supports individual growth, and contributes positively to our employees, clients, and the communities we serve. \n\nTogether, we are creating a future where people can do exceptional work, achieve their full potential, and make a meaningful impact through technology and innovation.";
 
