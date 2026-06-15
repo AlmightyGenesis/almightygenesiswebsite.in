@@ -4872,81 +4872,221 @@ z-index:20;
     color: white;
 }
 
-/* ===========================
-   MOBILE RESPONSIVE
-=========================== */
+/* MOBILE & TABLET RESPONSIVE */
+@media screen and (max-width: 768px){
 
-@media screen and (max-width: 768px) {
+nav{
+height:80px;
+padding:0 15px;
+}
 
-  *{
-    box-sizing: border-box;
-  }
+.menu{
+gap:10px;
+margin-right:0;
+font-size:12px;
+overflow-x:auto;
+}
 
-  html, body{
-    width: 100%;
-    overflow-x: hidden;
-  }
+/* HERO */
 
-  .container{
-    width: 100%;
-    padding: 0 15px;
-  }
+.hero,
+.content-hero{
+height:100dvh;
+margin-top:0;
+}
 
-  /* Headings */
-  h1{
-    font-size: 2rem;
-  }
+.hero-content{
+width:90%;
+padding:20px;
+}
 
-  h2{
-    font-size: 1.7rem;
-  }
+.hero-content h1{
+font-size:30px;
+}
 
-  p{
-    font-size: 1rem;
-    line-height: 1.7;
-  }
+.hero-content h2{
+font-size:18px;
+}
 
-  /* Images */
-  img{
-    max-width: 100%;
-    height: auto;
-  }
+.hero-content h3{
+font-size:15px;
+}
 
-  /* Video */
-  video{
-    width: 100%;
-    height: auto;
-  }
+/* COMPANY OVERVIEW HERO */
 
-  /* Process Boxes */
-  .process-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+.content-hero-text{
+position:absolute;
+top:100px;
+left:20px;
+width:90%;
+}
 
-  .process-box{
-    width: 95%;
-    margin: 0 !important;
-    transform: none !important;
-  }
+.content-hero-text h1{
+font-size:28px;
+}
 
-  /* Glass Cards */
-  .glass-box{
-    width: 95%;
-    margin: 10px auto;
-  }
+.content-hero-text p{
+font-size:18px;
+}
 
-  /* Buttons */
-  button{
-    width: 100%;
-  }
+.content-hero-text h3{
+font-size:16px;
+width:100%;
+}
 
-  /* Footer */
-  footer{
-    text-align: center;
-  }
+/* GLASS BOX */
+
+.content-details{
+
+top:0;
+
+margin-top:0;
+
+padding:30px 20px;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.content-details h2{
+font-size:24px;
+}
+
+.content-details p{
+font-size:16px;
+line-height:1.8;
+}
+
+/* HOME */
+
+.home-details{
+
+width:95%;
+
+padding:25px;
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.home-details.reverse{
+flex-direction:column;
+}
+
+.home-heading{
+width:95%;
+padding:25px;
+}
+
+.home-heading p{
+width:100%;
+}
+
+/* IMAGES */
+
+.portfolio-images img,
+.insight-images img{
+width:90%;
+height:auto;
+}
+
+/* OVERVIEW */
+
+.overview-row{
+flex-direction:column;
+}
+
+.service-list{
+grid-template-columns:1fr;
+}
+
+/* MISSION */
+
+.mission-infinity-container{
+grid-template-columns:1fr;
+}
+
+.mission-box{
+width:95%;
+}
+
+.mission-infinity-container .mission-box:nth-child(3){
+grid-column:auto;
+}
+
+/* FLOW */
+
+.flow-box,
+.vision-step-box{
+width:95%;
+align-self:center !important;
+}
+
+.flow-box::after,
+.vision-step-box::after{
+display:none;
+}
+
+/* IMAGES */
+
+.misssion-image img{
+width:90%;
+}
+
+/* FOOTER */
+
+.footer{
+padding:20px;
+flex-direction:column;
+gap:20px;
+text-align:center;
+}
+
+.footer-logo{
+align-items:center;
+}
+
+.footer-social{
+text-align:center;
+}
+
+}
+
+/* LANDSCAPE MOBILE FIX */
+
+@media screen and (max-height:500px) and (orientation:landscape){
+
+.hero,
+.content-hero{
+height:auto;
+min-height:100dvh;
+}
+
+.content-hero-text{
+
+position:relative;
+
+top:120px;
+
+left:20px;
+
+width:90%;
+
+padding-bottom:50px;
+
+}
+
+.content-details{
+
+top:0;
+
+margin-top:40px;
+
+}
 
 }
 
