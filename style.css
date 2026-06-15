@@ -1007,7 +1007,7 @@ button:hover {
 }
 
 
-
+/* COMPANY OVERVIEW */
 #overviewNewSections{
 
 width:90%;
@@ -1095,6 +1095,144 @@ margin-bottom:20px;
 
 font-size:28px;
 
+}
+
+/* OVERVIEW */
+.overview-hero{
+
+position:absolute;
+
+top:55%;
+
+left:8%;
+
+transform:translateY(-50%);
+
+max-width:700px;
+
+z-index:5;
+
+color:white;
+
+animation:heroFade 1.5s;
+
+}
+
+.hero-tag{
+
+display:inline-block;
+
+letter-spacing:4px;
+
+font-size:20px;
+
+font-weight:700;
+
+color:#57A5FF;
+
+margin-bottom:20px;
+
+}
+
+.overview-hero h1{
+
+font-size:68px;
+
+font-weight:800;
+
+line-height:1.1;
+
+margin-bottom:25px;
+
+text-transform:uppercase;
+
+}
+
+.overview-hero p{
+
+font-size:24px;
+
+line-height:1.6;
+
+margin-bottom:30px;
+
+max-width:650px;
+
+}
+
+.hero-line{
+
+width:250px;
+
+height:3px;
+
+background:#57A5FF;
+
+margin-bottom:30px;
+
+}
+
+.hero-small-text{
+
+font-size:20px;
+
+line-height:1.8;
+
+max-width:600px;
+
+opacity:.95;
+
+}
+
+@keyframes heroFade{
+
+from{
+
+opacity:0;
+
+transform:translateY(-30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0px);
+
+}
+
+}
+
+.content-details{
+
+margin-top:-120px;
+
+position:relative;
+
+z-index:20;
+
+}
+
+/* OVERVIEW */
+.overview-theme .content-hero-text h1 {
+    color: lightskyblue;
+}
+
+.overview-theme .content-hero-text p {
+    color: white;
+}
+
+.overview-theme .content-hero-text h3 {
+    color: #ffffff;
+}
+
+.overview-theme .content-details h2 {
+    color: lightskyblue;
+}
+
+.overview-theme .content-details p {
+    color: white;
 }
 
 /* MISSION SECTION */
@@ -1742,7 +1880,7 @@ padding:30px;
     color: white;
 }
 
-
+/* INDUSTRIES WE SERVE */
 #industryExtra{
 
 width:90%;
@@ -1817,9 +1955,21 @@ color:#dbeafe;
 
 }
 
+.industry-theme .content-hero-text h1 {
+    color: white;
+}
 
+.industry-theme .content-hero-text p {
+    color: whitesmoke;
+}
 
+.industry-theme .content-details h2 {
+    color: #E9FFDB;
+}
 
+.industry-theme .content-details p {
+    color: #F0FFF0;
+}
 
 /* LEAD GENERATION */
 .lead-main{
@@ -2176,8 +2326,6 @@ color:#60a5fa;
 margin-bottom:20px;
 
 }
-
-
 
 .enterprise-end{
 
@@ -4704,172 +4852,6 @@ grid-template-columns:1fr;
     0 0 30px rgba(0, 194, 255, 0.15);
 
     backdrop-filter: blur(15px);
-}
-
-
-
-
-
-
-.industry-theme .content-hero-text h1 {
-    color: white;
-}
-
-.industry-theme .content-hero-text p {
-    color: whitesmoke;
-}
-
-.industry-theme .content-details h2 {
-    color: #E9FFDB;
-}
-
-.industry-theme .content-details p {
-    color: #F0FFF0;
-}
-
-
-
-
-
-
-
-
-/* OVERVIEW */
-.overview-hero{
-
-position:absolute;
-
-top:55%;
-
-left:8%;
-
-transform:translateY(-50%);
-
-max-width:700px;
-
-z-index:5;
-
-color:white;
-
-animation:heroFade 1.5s;
-
-}
-
-.hero-tag{
-
-display:inline-block;
-
-letter-spacing:4px;
-
-font-size:20px;
-
-font-weight:700;
-
-color:#57A5FF;
-
-margin-bottom:20px;
-
-}
-
-.overview-hero h1{
-
-font-size:68px;
-
-font-weight:800;
-
-line-height:1.1;
-
-margin-bottom:25px;
-
-text-transform:uppercase;
-
-}
-
-.overview-hero p{
-
-font-size:24px;
-
-line-height:1.6;
-
-margin-bottom:30px;
-
-max-width:650px;
-
-}
-
-.hero-line{
-
-width:250px;
-
-height:3px;
-
-background:#57A5FF;
-
-margin-bottom:30px;
-
-}
-
-.hero-small-text{
-
-font-size:20px;
-
-line-height:1.8;
-
-max-width:600px;
-
-opacity:.95;
-
-}
-
-@keyframes heroFade{
-
-from{
-
-opacity:0;
-
-transform:translateY(-30px);
-
-}
-
-to{
-
-opacity:1;
-
-transform:translateY(0px);
-
-}
-
-}
-
-.content-details{
-
-margin-top:-120px;
-
-position:relative;
-
-z-index:20;
-
-}
-
-/* OVERVIEW */
-.overview-theme .content-hero-text h1 {
-    color: lightskyblue;
-}
-
-.overview-theme .content-hero-text p {
-    color: white;
-}
-
-.overview-theme .content-hero-text h3 {
-    color: #ffffff;
-}
-
-.overview-theme .content-details h2 {
-    color: lightskyblue;
-}
-
-.overview-theme .content-details p {
-    color: white;
 }
 
 /* MOBILE & TABLET RESPONSIVE */
