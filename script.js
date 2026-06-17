@@ -150,7 +150,7 @@ function openPage (type) {
     /* COMPANY OVERVIEW */
     case "overview":
     title = "Company Overview";
-    question = "We Transform Opportunities into Results and Partnershils into Lasting Success" ;       
+    question = "We Transform Opportunities into Results and Partnerships into Lasting Success" ;       
     intro = "At Almighty Genesis, we combine innovation, expertise, and strategic thinking to shape a stronger future.";
     detailHeading = " ❝ Delivering Excellence Through Innovation and Business Support Solutions."
     text = "Almighty Genesis is a dynamic and growth-focused organization specializing in Business Process Outsourcing (BPO), customer support, lead generation, back-office operations, and business management services. We are committed to helping businesses improve operational efficiency, enhance customer satisfaction, and achieve sustainable growth through innovative and cost-effective solutions. \n\n With a strong focus on quality, reliability, and continuous improvement, we partner with organizations across various industries to streamline business processes and optimize performance. Our experienced team combines industry knowledge, advanced technology, and customer-centric strategies to deliver measurable results that support our clients' long-term success.";
@@ -161,7 +161,7 @@ function openPage (type) {
     /* OUR MISSION */
     case "mission":
     title = "Our Mission";
-    question = "Driven by purpose, inspired by innovation. Committed to creating lasting value for businesses and communities.";
+    question = "Driven by purpose, inspired by innovation. \n\Committed to creating lasting value for businesses and communities.";
     intro = "Our aspiration is to lead with vision, foster meaningful growth, and deliver transformative solutions that shape a successful future.";
     detailHeading = "MAKING IMPOSSIBLE, POSSIBLE...";
     text = "To provide innovative, scalable, and reliable outsourcing solutions that drive business success, improve operational efficiency, and create lasting value for our clients.";
@@ -172,7 +172,7 @@ function openPage (type) {
     /* OUR VISION */
     case "vision":
     title = "Our Vision";
-    question = "Leading today with tomorrow in mind.Creating possibilities that redefine success.";
+    question = "Leading today with tomorrow in mind. \n\Creating possibilities that redefine success.";
     intro = "Our vision is to lead with innovation, inspire transformation, and create sustainable value. We strive to build a future where opportunities flourish, businesses grow, and success knows no boundaries.";
     detailHeading = "BUILDING LONG-TERM SUCCESS...!";
     text = "To become a trusted global outsourcing partner recognized for service excellence, technological innovation, and long-term client relationships.";
@@ -185,7 +185,7 @@ function openPage (type) {
     /* WHY CHOOSE US */
     case "why":
     title = "Why Choose Us...?";
-    question = "Delivering solutions with precision and purpose.Building lasting value through expertise and innovation.";
+    question = "Delivering solutions with precision and purpose. \n\Building lasting value through expertise and innovation.";
     intro = "We strive for the highest standards in everything we do, delivering quality services and exceptional results. We build trust through transparency, accountability, and ethical business practices."
     detailHeading = "Who We Are";
     text = "We are a team of dedicated professionals passionate about helping businesses overcome challenges, streamline processes, and unlock new opportunities for success. By understanding the unique goals and requirements of each client, we develop tailored solutions that drive productivity, improve performance, and support long-term growth. \n\nWhether supporting customer interactions, managing business processes, generating qualified leads, or providing operational support, we serve as an extension of our clients’ teams, delivering excellence at every stage.";
@@ -201,7 +201,7 @@ function openPage (type) {
 
    title="Industries We Serve";
 
-   question="Delivering expertise across diverse business sectors. Creating solutions tailored to every industry's unique challenges.";
+   question="Delivering expertise across diverse business sectors. \n\Creating solutions tailored to every industry's unique challenges.";
 
    intro = " We provide innovative, scalable, and results-driven solutions that help organizations achieve sustainable growth and long-term success.";
 
@@ -226,9 +226,9 @@ function openPage (type) {
    /* LEAD GENERATION */
    case "lead":
 
-   title="LEAD GENERATION";
+   title="Lead Generation";
 
-   question = "Attracting qualified prospects with precision and purpose. Fueling sustainable growth through quality lead generation.";
+   question = "Attracting qualified prospects with precision and purpose. \n\Fueling sustainable growth through quality lead generation.";
 
    intro = "Our approach focuses on delivering quality leads that support conversion goals and accelerate business growth.";
 
@@ -236,7 +236,7 @@ function openPage (type) {
 
    text="In today's competitive marketplace, finding and connecting with the right prospects is essential for sustainable business growth. At Almighty Genesis, we provide strategic lead generation solutions that help businesses identify, engage, and convert potential customers into qualified sales opportunities. \n\nOur lead generation services are designed to support organizations across various industries by delivering high-quality leads that match their target audience, business goals, and growth objectives. Through a combination of market research, data analysis, digital outreach, and customer engagement strategies, we help businesses build a strong and consistent sales pipeline.";
 
-   bgVideo="LG-2.mp4";
+   bgVideo="lead.mp4";
 
    page.classList.add("lead-theme");
 
@@ -245,9 +245,9 @@ function openPage (type) {
    /* ENTERPRISE MANAGEMENT */ 
     case "enterprise":
 
-    title="ENTERPRISE MANAGEMENT";
+    title="Enterprise Management";
 
-    question="Think Smarter, \n\nOperate Smarter, \n\nGrow Stronger...";
+    question="Think Smarter, \n\Operate Smarter, \n\Grow Stronger...";
 
     text="In today’s fast-paced business environment, organizations face increasing competition, rapid technological advancements, and growing demands for efficiency, agility, and sustainability. To stay ahead, businesses need intelligent solutions that streamline operations, optimize resources, and support long-term growth. \n\nAt Almighty Genesis, we help organizations transform and modernize their core business functions by creating efficient, connected, and customer-focused operations. Through a combination of business process expertise, digital technologies, and strategic support, we enable businesses to improve performance while adapting to changing market demands. \n\nOur solutions help organizations enhance critical functions such as finance, human resources, customer service, back-office operations, and business support services. By simplifying processes, improving workflows, and leveraging technology, we create seamless environments where people, processes, and systems work together more effectively.";
 
@@ -262,7 +262,7 @@ function openPage (type) {
 
     title="Customer First";
 
-    question="Putting your goals at the forefront of our mission. Building lasting relationships through trust and commitment.";
+    question="Putting your goals at the forefront of our mission. \n\Building lasting relationships through trust and commitment.";
 
     intro = "Our customer-first approach ensures that every service we provide is tailored to your business objectives. Through transparency, responsiveness, and continuous support, we help you achieve meaningful and sustainable growth.";
 
@@ -281,7 +281,7 @@ function openPage (type) {
 
     title="Consulting Services";
 
-    question="Transforming challenges into opportunities for growth. Creating pathways for innovation and lasting impact.";
+    question="Transforming challenges into opportunities for growth. \n\Creating pathways for innovation and lasting impact.";
 
     intro = "Through strategic planning, industry expertise, and innovative thinking, we deliver actionable solutions that support sustainable growth and long-term success.";
 
@@ -296,9 +296,9 @@ function openPage (type) {
     /* BUSINESS COLLABORATION */    
    case "collaboration":
 
-   title="BUSINESS COLLABORATION";
+   title="Business Collaboration";
 
-   question="Building stronger businesses through meaningful partnerships. Collaborating to create shared success and lasting value.";
+   question="Building stronger businesses through meaningful partnerships. \n\Collaborating to create shared success and lasting value.";
 
    intro = "Through strategic partnerships, we foster innovation, expand market reach, and create mutually beneficial outcomes that support long-term growth.";
 
@@ -315,9 +315,9 @@ function openPage (type) {
    /* TRAINING AND SUPPORT */
    case "training":
 
-    title="TRAINING & SUPPORT";
+    title="Training & Support";
 
-    question="Empowering success through knowledge and continuous support. Providing the tools and expertise to help you thrive.";
+    question="Empowering success through knowledge and continuous support. \n\Providing the tools and expertise to help you thrive.";
 
     intro = "We deliver comprehensive training programs and dedicated support services tailored to your unique requirements.";
 
@@ -335,9 +335,9 @@ function openPage (type) {
     /* WORK */
     case "work":
 
-    title="WORK";
+    title="Work";
 
-    question="Where ideas become results and vision becomes reality. Creating measurable value through innovative solutions.";
+    question="Where ideas become results and vision becomes reality. \n\Creating measurable value through innovative solutions.";
 
     intro = "Our work demonstrates the expertise and commitment that define our approach. From concept to completion, we create solutions that generate value, enhance efficiency, and support business growth.";
 
@@ -356,7 +356,7 @@ function openPage (type) {
     /* INTERNSHIP PROGRAM */
     case "internship":
 
-    title="INTERNSHIP PROGRAM";
+    title="Internship Program";
 
     question="Your career starts before your first job.";
 
@@ -375,7 +375,7 @@ function openPage (type) {
     /* LIFE AT ALMIGHTY GENESIS */
     case "life":
 
-    title="LIFE AT ALMIGHTY GENESIS";
+    title="Life At Almighty Genesis";
 
     question="More Than A Workplace";
 
@@ -394,7 +394,7 @@ function openPage (type) {
     /* FLEXIBLE WORK */
     case "Flexible":
 
-    title="FLEXIBLE WORK";
+    title="Flexible Work";
 
     question="Work Without Limits";
 
@@ -413,7 +413,7 @@ function openPage (type) {
     /* LEARNING AND ENVIRONMENT */
     case "learning":
 
-    title="LEARNING & DEVELOPMENT";
+    title="Larning & Development";
 
     question="Empowering Continuous Growth";
 
@@ -434,7 +434,7 @@ function openPage (type) {
 
     title="Recruitment Process";
 
-    question="Connecting exceptional talent with meaningful opportunities. A transparent process designed for success.";
+    question="Connecting exceptional talent with meaningful opportunities. \n\A transparent process designed for success.";
 
     intro = "Our recruitment process is built to identify, engage, and onboard talented professionals who align with our values and vision. We ensure a seamless, fair, and efficient experience for every candidate from application to selection.";
 
